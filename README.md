@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Sistema-login
 
-## Getting Started
+![Register of the project](https://raw.githubusercontent.com/jefersonsann/sistema-login-auth.v5/main/public/register.png)
+![Login of the project](https://raw.githubusercontent.com/jefersonsann/sistema-login-auth.v5/main/public/login.png)
+![User of the project](https://raw.githubusercontent.com/jefersonsann/sistema-login-auth.v5/main/public/user.png)
 
-First, run the development server:
+## Funcionalidades do projeto
+
+<ul>
+  <li>Registro de usuário:
+    ['Nome', 'username', 'email', 'password', 'confirmPassword']
+  </li>
+  <li>Login com autenticação JWT: ['email ou username', 'senha']</li>
+  <li>Middleware com proteção de rotas: ['publicRoutes', 'privateRoutes', 'apiAuthPrefix']</li>
+  <li>Após o usuário autenticado, é possível adicionar imagem de perfil</li>
+</ul>
+
+## Tecnologias e Dependências utilizadas
+
+<ul>
+  <li>Next</li>
+  <li>prisma</li>
+  <li>react-hook-form</li>
+  <li>bcrypt</li>
+  <li>uuid</li>
+  <li>zod</li>
+  <li>next-auth</li>
+</ul>
+
+## Como executar o projeto
 
 ```bash
+# clonar repositório:
+git clone https://github.com/jefersonsann/sistema-login-auth.v5.git
+
+# entrar na pasta do projeto
+cd sistema-login-auth.v5
+
+# instalar dependências
+npm install
+
+# inicializar projeto
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Autor
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[Jeferson Santos](https://jefersonsann.com)
