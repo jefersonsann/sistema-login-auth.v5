@@ -1,0 +1,23 @@
+.ct {
+  display: flex;
+  align-items: center;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  color: var(--colors-danger-base);
+  background-color: var(--colors-danger-light);
+  border-radius: var(--border-radius-md);
+}
+
+.message svg {
+  width: 100px;
+  height: 100px;
+}
+
+.message h1 {
+  font-size: 1.2rem;
+}

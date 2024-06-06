@@ -1,0 +1,16 @@
+.ct {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--colors-danger-base);
+  margin: 0.4rem 0;
+  padding: 0.6rem 1rem;
+  background-color: var(--colors-danger-light);
+  border-radius: var(--border-radius-sm);
+}
+
+.text {
+  transform: translateY(2px);
+}

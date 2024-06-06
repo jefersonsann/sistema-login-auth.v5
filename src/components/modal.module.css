@@ -1,0 +1,41 @@
+.container {
+  top: 50%;
+  left: 50%;
+  max-width: 400px;
+  max-height: 100dvh;
+  width: 100%;
+  background: transparent;
+  transform: translate(-50%, -50%);
+}
+
+.container::backdrop {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.content {
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.close {
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
+  width: 2rem;
+  height: 2rem;
+  background: #fff;
+}
+
+.animate {
+  animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}

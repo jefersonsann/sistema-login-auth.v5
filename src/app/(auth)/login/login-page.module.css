@@ -1,0 +1,44 @@
+.title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.title::before,
+.title::after {
+  content: "{";
+  color: var(--colors-primary-400);
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.title::before {
+  content: "{";
+  margin-right: 0.4rem;
+}
+
+.title::after {
+  content: "}";
+  margin-left: 0.4rem;
+}
+
+.signup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.5rem 1rem;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.4rem;
+  font-size: 1rem;
+}
+
+.icon svg {
+  width: 30px;
+  height: 30px;
+  fill: var(--colors-base-400);
+}

@@ -1,0 +1,76 @@
+.ct:not(:last-of-type) {
+  margin-bottom: 2rem;
+}
+
+.wp {
+  display: flex;
+  color: var(--foreground);
+  background: var(--colors-base-1100);
+  border-color: var(--colors-base-1000);
+  border-width: 1px;
+  border-radius: var(--border-radius-sm);
+  padding-top: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.wp.error {
+  border-color: var(--colors-danger-base);
+}
+
+.wp.disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.input {
+  width: 100%;
+  font-size: 1rem;
+  color: var(--foreground);
+  padding: 0.4rem 1rem 0.6rem;
+  margin-top: 0.8rem;
+  background-color: transparent;
+  outline: none;
+}
+
+.input:autofill,
+.input:-webkit-autofill {
+  background-color: rgb(232 240 254) !important;
+  background-image: none !important;
+  color: -internal-light-dark(black, white) !important;
+}
+
+.label {
+  position: absolute;
+  top: 50%;
+  font-size: 1.2rem;
+  transform: translateY(-50%);
+  left: 1rem;
+
+  transition: all 0.3s ease;
+  cursor: text;
+}
+
+.input:focus ~ .label,
+.input:focus-visible ~ .label,
+.input:focus-within ~ .label,
+.input:not(:placeholder-shown) ~ .label {
+  color: var(--colors-base-600);
+  font-size: 0.8rem;
+  top: 25%;
+  left: 1.5rem;
+  border-color: var(--colors-primary-400);
+}
+
+.visiblePassword {
+  width: 50px;
+  background-color: transparent;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.visiblePassword svg {
+  width: 35px;
+  height: 35px;
+  color: var(--foreground);
+}

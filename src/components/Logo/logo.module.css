@@ -1,0 +1,27 @@
+.ct {
+  display: grid;
+  grid-template-columns: 2fr max-content 5fr;
+  align-items: center;
+  max-width: 100%;
+}
+
+.divisor {
+  display: block;
+  width: 2px;
+  height: 80%;
+  margin: 3rem 1rem;
+  background-color: var(--foreground);
+}
+
+.wp {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  color: inherit;
+}
+.lastname {
+  width: 80%;
+  opacity: 0.6;
+}
