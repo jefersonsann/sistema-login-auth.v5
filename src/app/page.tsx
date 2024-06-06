@@ -1,3 +1,4 @@
+import Logo from "@/components/Logo/Logo";
 import { UserCard } from "@/components/UserCard";
 import { currentUser } from "@/lib/auth";
 import ButtonLogout from "./(protected)/settings/ButtonLogout";
@@ -8,6 +9,7 @@ export default async function Home() {
 
   return (
     <main className={styles.ct}>
+      <Logo />
       {user ? <UserCard /> : <h1>Pagina inicial</h1>}
       <div className="container">
         <ButtonLogout />

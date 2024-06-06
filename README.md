@@ -1,8 +1,8 @@
 # Sistema-login
 
-![Register of the project](https://raw.githubusercontent.com/jefersonsann/sistema-login-auth.v5/main/public/register.png)
-![Login of the project](https://raw.githubusercontent.com/jefersonsann/sistema-login-auth.v5/main/public/login.png)
-![User of the project](https://raw.githubusercontent.com/jefersonsann/sistema-login-auth.v5/main/public/user.png)
+![Logo](https://raw.githubusercontent.com/jefersonsann/sistema-login-auth.v5/main/public/logo.png)
+
+![screenshot](https://raw.githubusercontent.com/jefersonsann/sistema-login-auth.v5/main/public/screenshot.png)
 
 ## Funcionalidades do projeto
 
