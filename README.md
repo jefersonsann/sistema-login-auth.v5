@@ -1,46 +1,49 @@
 # Sistema-login
 
-![Register of the project](https://raw.githubusercontent.com/jefersonsann/sistema-login-auth.v5/main/public/register.png)
-![Login of the project](https://raw.githubusercontent.com/jefersonsann/sistema-login-auth.v5/main/public/login.png)
-![User of the project](https://raw.githubusercontent.com/jefersonsann/sistema-login-auth.v5/main/public/user.png)
+![Logo](https://raw.githubusercontent.com/jefersonsann/sistema-login-auth.v5/main/public/logo.png)
+
+![screenshot](https://raw.githubusercontent.com/jefersonsann/sistema-login-auth.v5/main/public/screenshot.png)
 
 ## Funcionalidades do projeto
 
-<ul>
-  <li>Registro de usuário:
-    ['Nome', 'username', 'email', 'password', 'confirmPassword']
-  </li>
-  <li>Login com autenticação JWT: ['email ou username', 'senha']</li>
-  <li>Middleware com proteção de rotas: ['publicRoutes', 'privateRoutes', 'apiAuthPrefix']</li>
-  <li>Após o usuário autenticado, é possível adicionar imagem de perfil</li>
-</ul>
+- **Registro de usuário:**
+  ['Nome', 'username', 'email', 'password', 'confirmPassword']
+- **Login com autenticação JWT:** ['email ou username', 'senha']
+- **Middleware com proteção de rotas:** ['publicRoutes', 'privateRoutes', 'apiAuthPrefix']
+- **Usuário autenticado:** É possível adicionar imagem de perfil
 
 ## Tecnologias e Dependências utilizadas
 
-<ul>
-  <li>Next</li>
-  <li>prisma</li>
-  <li>react-hook-form</li>
-  <li>bcrypt</li>
-  <li>uuid</li>
-  <li>zod</li>
-  <li>next-auth</li>
-</ul>
+- Next
+- prisma
+- react-hook-form
+- bcrypt
+- uuid
+- zod
+- next-auth
 
 ## Como executar o projeto
 
 ```bash
-# clonar repositório:
-git clone https://github.com/jefersonsann/sistema-login-auth.v5.git
+  git clone https://github.com/jefersonsann/sistema-login-auth.v5.git
+```
 
-# entrar na pasta do projeto
-cd sistema-login-auth.v5
+Entre no diretório do projeto
 
-# instalar dependências
-npm install
+```bash
+  cd sistema-login-auth.v5
+```
 
-# inicializar projeto
-npm run dev
+Instale as dependências
+
+```bash
+  npm install
+```
+
+Inicie o projeto
+
+```bash
+  npm run dev
 ```
 
 ## Autor
